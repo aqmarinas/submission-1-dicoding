@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header a,
+.aq a,
+header a:visited,
+.aq a:visited {
+  color: black;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+.container {
+  margin: 5rem;
+}
+
+#about {
+  display: flex;
+  flex: 2;
+}
+
+article {
+  text-align: justify;
+  margin: auto;
+}
+
+.anemo {
+  color: #72c0a9;
+  font-weight: bold;
+}
+
+.aq {
+  text-decoration: underline;
+}
+
+.link {
+  background-color: black;
+  padding: 0.8rem;
+  border-radius: 999px;
+  color: white;
+  line-height: 3;
+  font-weight: bold;
+}
+
+img {
+  width: 400px;
+}
+
+table {
+  margin: auto;
+}
+
+tr {
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+th {
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin-left: 20px;
+}
+
+td {
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+#download img {
+  width: 200px;
+}
+
+#download figure,
+#bio h1,
+#download h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .image {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    margin: 20px;
+  }
+
+  #about {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+  }
+
+  th,
+  td {
+    border-radius: 25px;
+  }
+
+  #download img {
+    margin-bottom: 10px;
+  }
+}
